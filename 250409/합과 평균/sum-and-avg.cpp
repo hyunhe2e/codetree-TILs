@@ -10,6 +10,9 @@ int main() {
     sum = A+B;
     average = (double)sum / (double)2;
 
+    cout<<fixed;
+    cout.precision(1);
+
     cout<<sum<<" "<<average;
 
 
