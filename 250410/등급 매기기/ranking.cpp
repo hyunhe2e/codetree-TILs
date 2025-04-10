@@ -15,7 +15,8 @@ int main() {
     } else if(score >= 60) {
         cout<<"D";
     } else {
-        cout<<"F"
+        cout<<"F";
     }
+
     return 0;
 }
