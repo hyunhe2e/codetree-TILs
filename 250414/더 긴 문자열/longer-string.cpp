@@ -9,8 +9,11 @@ int main() {
 
     if(word1.length() > word2.length()) {
         cout<<word1<<" "<<word1.length();
-    } else {
+    } else if (word1.length() < word2.length()){
         cout<<word2<<" "<<word2.length();
+    } else {
+        cout<<"same";
+
     }
 
     
