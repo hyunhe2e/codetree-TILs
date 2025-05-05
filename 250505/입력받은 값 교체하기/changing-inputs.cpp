@@ -6,6 +6,6 @@ int main() {
 
     cin>>a>>b;
 
-    cout<<b<<a;
+    cout<<b<<" "<<a;
     return 0;
 }
