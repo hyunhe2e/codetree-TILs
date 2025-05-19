@@ -6,12 +6,11 @@ int main() {
     
     cin >> a >> b;
 
-    if(a != b) {
-        if(a>b) 
-        cout <<a-b;
-        if(a <b) 
-        cout <<b -a ;
+    if(a>b){
+        cout<<a-b;
     }
-
+    if(a<=b) {
+        cout<<b-a;
+    }
     return 0;
 }
